@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   userName = 'Mimi';
 
+  serverCreated = true;
+
   onResetUserName(): void {
     this.userName = '';
+    this.serverCreated = false;
   }
 }

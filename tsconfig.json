@@ -14,5 +14,7 @@
   },
   "angularCompilerOptions": {
     "enableIvy": false
-  }
+  },
+  "include": ["src", "../common"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

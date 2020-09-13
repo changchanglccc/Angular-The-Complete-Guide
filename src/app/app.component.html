@@ -1,17 +1,3 @@
-<input type="text" [(ngModel)]="userName" />
-<p>{{ userName }}</p>
-
-<button [disabled]="!userName" (click)="onResetUserName()">Reset</button>
-
-<p *ngIf="serverCreated; else noServer">
-  a server was created, name: {{ userName }}
-</p>
-<ng-template #noServer>
-  <p>no server was created!</p>
-</ng-template>
-
-<app-servers></app-servers>
-
 <div class="container">
   <div class="row">
     <div class="col-md-12">
